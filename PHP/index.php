@@ -19,7 +19,13 @@
 </head>
 
 <body>
+
     <?php
+    if (isset($_GET["action"]) && $_GET['action'] == 'home') {
+        echo "<img src='../images/banner.png' id='banner' style='height: 300px; width: 100%; object-fit: cover;'>";       
+    } else if (!isset($_GET["action"])) {
+        echo "<img src='../images/banner.png' id='banner' style='height: 300px; width: 100%; object-fit: cover;'>";               
+    }
     
     include("./navigatie.php");
     
@@ -31,7 +37,6 @@
             include("./home.php");
         }
     ?>
-    <img src="../images/banner.png" style= "min-height: 300px; margin-top: 60px; background-size: cover;">
     <!-- Bootstrap core JavaScript -->
     <script src="../vendor/jquery/jquery.min.js"></script>
     <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

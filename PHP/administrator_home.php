@@ -1,6 +1,6 @@
 <?php
   $userrole = array("owner", "administrator");
-  include("./beveiliging.php");
+  include("./security.php");
 ?>
 <main class="container">
   <h1>Administrator Startpagina</h1>

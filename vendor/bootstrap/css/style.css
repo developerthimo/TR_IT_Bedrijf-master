@@ -2,16 +2,6 @@ nav#Main_navbar {
     border-bottom: 1px solid black;
 }
 
-.business-header {
-    min-height: 300px;
-    background: url("../../../images/Banner.png") center center no-repeat scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    margin-top:60px;
-  }
-
   ul.navbar-nav li.nav-item a {
     border-bottom: 3px solid transparent;
     color:black;
@@ -22,3 +12,11 @@ ul.navbar-nav li.nav-item a:hover {
       color:black;
       border-bottom-color: black;
   }
+
+body {
+  margin-top: 60px;
+}
+
+div#login_card {
+  margin: 13%;
+}
